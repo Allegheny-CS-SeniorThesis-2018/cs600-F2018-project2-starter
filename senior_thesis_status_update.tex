@@ -1,0 +1,140 @@
+\documentclass[11pt]{article}
+
+\newcommand{\assignmentduedate}{October 2}
+\newcommand{\assignmentassignedate}{September 18}
+\newcommand{\assignmentnumber}{Two}
+
+\newcommand{\labyear}{2018}
+\newcommand{\labday}{Tuesday}
+\newcommand{\labtime}{2:30 pm}
+
+\newcommand{\assigneddate}{Assigned: \labday, \assignmentassignedate, \labyear{}}
+\newcommand{\duedate}{Due: \labday, \assignmentduedate, \labyear{} at \labtime{}}
+
+\usepackage{pifont}
+\newcommand{\checkmark}{\ding{51}}
+\newcommand{\naughtmark}{\ding{55}}
+
+\usepackage{listings}
+\lstset{
+  basicstyle=\small\ttfamily,
+  columns=flexible,
+  breaklines=true
+}
+
+\usepackage{fancyhdr}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+
+\fancyhf{}
+\rhead{Computer Science 600}
+\lhead{Project Assignment \assignmentnumber{}}
+\rfoot{Page \thepage}
+\lfoot{\duedate}
+
+\usepackage{titlesec}
+\titlespacing\section{0pt}{6pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+\newcommand{\projecttitle}[1]
+{
+  \begin{center}
+    \begin{center}
+      \bf
+      CMPSC 600\\Senior Thesis I\\
+      Fall 2018\\
+      \medskip
+    \end{center}
+    \bf
+    #1
+  \end{center}
+}
+
+\usepackage{xspace}
+
+%% Words that we need to spell consistently
+\newcommand{\website}{web site\xspace}
+\newcommand{\webpage}{web page\xspace}
+\newcommand{\webpages}{web pages\xspace}
+\newcommand{\websites}{web sites\xspace}
+\newcommand{\stylesheet}{style sheet\xspace}
+\newcommand{\stylesheets}{style sheets\xspace}
+\newcommand{\Viewport}{Viewport\xspace}
+\newcommand{\viewport}{viewport\xspace}
+\newcommand{\viewports}{viewports\xspace}
+\newcommand{\XPath}{XPath\xspace}
+\newcommand{\xpath}{\XPath\xspace}
+\newcommand{\etal}{et al.\xspace}
+
+%% Numbers of things
+\newcommand{\numquestions}{two\xspace}
+\newcommand{\numtypes}{five\xspace}
+\newcommand{\numalgorithms}{four\xspace}
+\newcommand{\numtrials}{30\xspace}
+\newcommand{\numsubjects}{25\xspace}
+\newcommand{\maxnumhtmlelements}{1469\xspace}
+\newcommand{\minnumhtmlelements}{41\xspace}
+\newcommand{\totalfailures}{24\xspace}
+\newcommand{\totalviewports}{192\xspace}
+\newcommand{\maxpagefailures}{5\xspace}
+\newcommand{\numpageswithfailures}{13\xspace}
+\newcommand{\numpagesthatarefast}{15\xspace}
+\newcommand{\numtruepositives}{192\xspace}
+\newcommand{\numtwoormorefailures}{8\xspace}
+\newcommand{\numstackoverflowquestions}{961,157\xspace}
+\newcommand{\wminvalue}{400}
+\newcommand{\wmaxvalue}{1400}
+\newcommand{\wpairvalue}{(\wminvalue,\wmaxvalue)}
+
+%% Tools
+\newcommand{\redecheck}{{\sc ReDeCheck}\xspace}
+\newcommand{\xpert}{{\sc X-Pert}}
+\newcommand{\gwali}{{\sc gwali}}
+\newcommand{\cornipickle}{{\sc Cornipickle}}
+\newcommand{\wraith}{{\sc Wraith}}
+\newcommand{\galen}{{\sc Galen}}
+\newcommand{\fighting}{{\sc Fighting\,Layout\,Bugs}}
+\newcommand{\responsivepx}{{\sc ResponsivePX}}
+\newcommand{\redecheckexplained}{\redecheck~(REsponsive DEsign CHECKer, pronounced ``Ready Check'')\xspace}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\projecttitle{Project \assignmentnumber{} \\ \assigneddate{} \\ \duedate{}}
+
+% TODO: Delete this title and add one for your senior thesis
+\section*{Senior Thesis Title}
+
+\noindent
+Automatic Detection of Common Layout Failures in Responsively Designed Web Pages
+
+% TODO: Delete this abstract and include your own thesis abstract
+\section*{Senior Thesis Abstract}
+
+As the number and variety of devices being used to access the World Wide Web grows exponentially and there is an
+ever-increasing volume of mobile web traffic, ensuring the functionality of \webpages~across a myriad of devices has
+become paramount. Through complex \stylesheets, responsive \webpages~dynamically modify their appearance to
+accommodate a device's current viewport, aiming to provide a high-quality user experience across a wide range of
+devices. Due to the inherent difficulty of developing and testing mobile-ready pages, many of those in production use
+evince layout failures. To address the important challenge of testing responsive \webpages, this paper presents an
+automated technique, comprised of \numalgorithms~algorithms, that detects \numtypes~common layout failure types. To
+evaluate this approach, it was integrated into a tool called \mbox{\redecheck}, and applied to \numsubjects~real-world
+\webpages~representing a wide range of domains and complexities. In addition to highlighting the presented method's
+efficiency and broad applicability, the experimental evaluation of \redecheck~revealed that it could find layout
+failures in \numpageswithfailures~of the \numsubjects~studied production pages, detecting a total of
+\totalfailures~failures overall, including one on the front page of~\mbox{the well-known language-learning company,
+Duolingo}.
+
+% TODO: List your accomplishments towards demonstrating feasibility
+\section*{Demonstrations of Feasibility}
+
+\begin{enumerate}
+  \item First feasibility indicator
+  \item Second feasibility indicator
+  \item Third feasibility indicator
+\end{enumerate}
+
+\end{document}
