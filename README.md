@@ -111,7 +111,7 @@ this tool asks if you want to use encryption, please answer with a "yes".
 Now, you should have a `.travis.yml` file with a secure access token for your
 GitHub repository for this assignment. Use a text editor to edit this file and
 place the following lines of code at the bottom of it.
- Now, you are ready to perform a commit with tags and see your
+ Now, you should be ready to perform a commit with tags and see your
 PDF uploaded to GitHub!
 
 ```
