@@ -34,7 +34,7 @@ local.properties
 *.log
 *.lot
 *.out
-*.pdf
+#*.pdf
 *.ps
 *.tex~
 *.toc
