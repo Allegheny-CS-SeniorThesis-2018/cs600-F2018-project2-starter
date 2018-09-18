@@ -62,7 +62,7 @@ requirements, then you will see a green &#x2714; in the listing of commits in
 GitHub. If your submission does not meet the requirements, a red &#x2717; will
 appear instead. Your course  instructor will reduce a researcher's grade for
 this assignment if the red &#x2717; appears on the last commit in GitHub
-immediately before the assignment's due date on October 3, 2017 at 9:00 a.m..
+immediately before the assignment's due date on October 2, 2018 at 2:30 p.m..
 
 Yet, if the green &#x2714; appears on the last commit in your GitHub
 repository, then you satisfied all of the main checks, thereby allowing the
@@ -95,8 +95,6 @@ access the private repositories that you created on GitHub. You will partially
 complete this authorization by following intuitive steps in your web browser.
 You will also need to type the command `travis login --pro` in your terminal
 window when you are in the root of your GitHub repository.
-
-## Security
 
 In order for Travis to automatically upload a PDF, called
 `senior_thesis_status_update.pdf`, to GitHub when you tag the commit, you need to
