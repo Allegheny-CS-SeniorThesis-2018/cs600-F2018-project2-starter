@@ -110,9 +110,8 @@ this tool asks if you want to use encryption, please answer with a "yes".
 
 Now, you should have a `.travis.yml` file with a secure access token for your
 GitHub repository for this assignment. Use a text editor to edit this file and
-place the following lines of code at the bottom of it. Finally, you should ask
-Professor Kapfhammer to enable Travis-based continuous integration for your
-GitHub repository. Now, you are ready to perform a commit with tags and see your
+place the following lines of code at the bottom of it.
+ Now, you are ready to perform a commit with tags and see your
 PDF uploaded to GitHub!
 
 ```
@@ -213,4 +212,4 @@ free laptop stickers and extra credit towards their grade for it.
 
 If you are having trouble completing any part of this project, then please talk
 with your first reader. Alternatively, you may ask questions in the Slack
-team for this course. 
+team for this course.
