@@ -1,27 +1,3 @@
-<!---
-
-TASK LIST:
-
-  * Update the first paragraph to include the commented-out content
-  * Change the link in the # Problems section to point to this lab's starter
-  * Create the assignment in the GitHub Classroom, noting the URL
-  * Test the assignment by accepting it with your own GitHub account
-  * Check to ensure that your GitHub repository is created correctly
-  * Share the assignment link with all of the students using email or Slack
-
-NOTE:
-
-  * For projects in CMPSC 600, the course instructor only creates starter
-    repositories since there is no expected "solution" for the project
-  * This project is a status update so it uses the corresponding template
-
-PROBLEMS?
-
-  * Contact Gregory M. Kapfhammer by email or Slack
-  * Raise an issue in the GitHub repository for this assignment
-
--->
-
 # cs600-F2018-project2
 
 This repository contains the starter for project two in Computer Science 600
@@ -99,7 +75,7 @@ window when you are in the root of your GitHub repository.
 In order for Travis to automatically upload a PDF, called
 `senior_thesis_status_update.pdf`, to GitHub when you tag the commit, you need to
 created your encrypted access token. To complete this task you must type the
-command `travis setup releases --force` in your GitHub repository for this
+command `travis setup releases --com --force` in your GitHub repository for this
 assignment. Then, when prompted, please type your username and password for
 GitHub. When asked to give the filename, you can type
 `_build/senior_thesis_status_update.pdf`. When asked if you want to deploy from a
