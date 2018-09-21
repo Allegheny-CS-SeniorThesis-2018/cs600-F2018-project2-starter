@@ -10,7 +10,6 @@ deploy:
   api_key:
     secure: XMPrGiIC2mPoo4PeO+GxKIPciCrXJwrbcNWc/S4Vm37TPx7OW1uYZmS0CcYoUmqd/Das4ubTAcaX2ZsqDoNQd8Urth0tzJ/5sxhfdl6k6ALY+P53JJxE1J2mAJlq85W5tmajKYMjoOZQcx+MZ5ep3x81xsQSb0FZ/4e7HF/YZNTfIbWdLNyh6vcZKUn1WkkI83ElpqaRSrRMfCEGODPcHLOw0j3Owk+iOk8UegPgb1EvAa/y5GpQcoMPVjx+ZsxUlNznMKf/iyP1FhlB07+li4Z+mwkjxiNyghf1NWZpB6E2DXWpX+vIXwd5r+pWbmEmPMd5PL5Y0wCuuNtrR9sAgN1Tpz4O+tDrv032OLD69xxx5ZsSyOsa9osAQ81nTTcev/9tEaynp59fzZwKTVkKKkeTqH7pVQ2MOcD8le6f8ZjMYkdfzNHf/xoIE1ICkCHyU0Fy2p/c3MichxWb6Bo4LkdTXyd3Ohg/ZQXGArorqFzply4KQHeRG/aNS695I0oD1nrmH2xLiE2R+Kq/DwtTumGFTNtR3jYgD+nmZhe/AZqHK2Z8rEvpf+0x45i/jVnQ0dLAij4COUpNIMdei0PPt5UarjI6J94M+mSveW1ddhavp6imUSUFvV2MVj8/jhrjZoKdhQvNyaJpNIbCDSyrZPqc9DToBwy4nvz8MLW0v2I=
   file: _build/senior_thesis_status_update.pdf
-
   skip_cleanup: true
   on:
     tags: true

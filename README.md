@@ -15,6 +15,7 @@ repository whenever a commit is tagged for a release. Additionally, you can use
 a LaTeX compilation command like `pdflatex` or `latexmk` to compile the provided
 LaTeX file on your local workstation.
 
+
 ## Introduction
 
 This assignment requires a researcher to write a LaTeX document, stored in the
